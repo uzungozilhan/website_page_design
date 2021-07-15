@@ -1,0 +1,242 @@
+.img-section {
+  background-image: url(./images/showcase.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  
+}
+.header {
+  background-color: rgb(38, 54, 63);
+  color: white;
+  /* height: 4rem; */
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 2px solid rgb(208, 32, 144);
+}
+.header-left {
+  /* float: left; */
+  /* padding: 1rem; */
+  margin-left: 1rem;
+}
+.header-right {
+  /* float: right; */
+  margin: 1rem;
+}
+a {
+  text-decoration: unset;
+  color: white;
+  padding: 10px;
+}
+a:hover {
+  color: blueviolet;
+}
+.big-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  /* height: 80%; */
+  height: 40%;
+}
+h1 {
+  padding: 6rem 0 0.7rem 0;
+}
+#big-section-text {
+  padding: 0.7rem 0 6rem 0;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.subscribe {
+  /* height: 4rem; */
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  background-color: rgb(38, 54, 63);
+}
+.subscribe-left {
+  margin: 1rem;
+}
+.subscribe-right {
+  margin: 1rem;
+}
+#email {
+  height: 2rem;
+  width: 10rem;
+}
+#submit-button {
+  height: 2rem;
+  background-color: red;
+  color: white;
+  padding: 0 1rem;
+  border: none;
+}
+#submit-button:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.footer-up {
+  background-color: white;
+  display: flex;
+  height: 25%;
+
+  /* align-items: center;
+    justify-content: space-around; */
+}
+.footer-img {
+  width: 5rem;
+  padding: 1rem;
+}
+.html {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.css {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.graphic-design {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.footer-up-text {
+  font-size: 0.7rem;
+  padding: 1.5rem;
+  text-align: center;
+}
+.footer-down {
+  background-color: rgb(38, 54, 63);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  padding: 1rem;
+  height: 15%;
+  /* bottom: 0px;
+  position: fixed;
+  left: 0px;
+  right: 0px; */
+}
+.main-section {
+  display: flex;
+  height: 65%;
+  background-color: wheat;
+}
+#about-us{
+    padding: 1rem;
+}
+#first-p {
+  padding: 1rem;
+  text-align: justify;
+}
+#second-p {
+  background-color: rgb(38, 54, 63);
+  color: white;
+  padding: 1rem;
+  text-align: justify;
+  margin: 1rem;
+}
+.main-section-right {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: inherit;
+  background-color: rgb(38, 54, 63);
+  color: whitesmoke;
+  margin: 1rem;
+  text-align: justify;
+}
+#what-we-do {
+  padding: 1rem;
+}
+#third-p {
+  padding: 1rem;
+}
+.services-main-section{
+    background-color:rgb(240, 232, 232);
+    display: flex;
+    
+}
+.services-main-section-left{
+    padding: 1rem;
+    width: 70%;
+}
+#services{
+    margin-bottom: 1rem;
+}
+.services-boxes{
+    /* padding: 1rem; */
+    /* text-align: justify; */
+    
+    
+}
+.services-box{
+    /* margin: 0.5rem; */
+    border: 1px solid black;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    text-align: justify;
+    font-size: 0.8rem;
+    background-color:silver;
+}
+h3 ~ p{
+    padding: 0.5rem 0;    
+}
+div h3{
+    padding: 0.5rem 0;
+}
+.services-main-section-right{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(38, 54, 63);
+    color: white;
+    margin: 1rem;
+    padding: 1rem;
+    width: 30%;
+}
+#get-a-quote{
+    padding: 1rem;
+}
+.label{
+    padding-bottom: ;
+}
+#name{
+    width: 100%;
+    height: 2rem;
+}
+#email{
+    width: 15rem;
+    height: 2rem;
+}
+#service-email{
+    width: 100%;
+    height: 2rem;
+}
+#message{
+  width: 100%;
+    height: 3rem;
+    resize: none;
+}
+
+

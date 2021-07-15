@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Page Design</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header-left">
+        <h2>
+          <span style="color: rgb(208, 32, 144)">Clarusway</span> Web Design
+        </h2>
+      </div>
+      <nav class="header-right">
+        <a href="./index.html" rel="noopener noreferrer">HOME</a>
+        <a href="./about.html" rel="noopener noreferrer"
+          >ABOUT</a
+        >
+        <a
+          href="./services.html"
+          rel="noopener noreferrer"
+          style="color: rgb(208, 32, 144)"
+          >SERVICES</a
+        >
+      </nav>
+    </header>
+
+    <div class="subscribe">
+      <div class="subscribe-left">
+        <h4>Subscribe To Our Newsletter</h4>
+      </div>
+      <div class="subscribe-right">
+        <form action="#" method="POST">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter Email..."
+          />
+          <button type="submit" id="submit-button">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="services-main-section">
+      <div class="services-main-section-left">
+        <h3 id="services">Services</h3>
+        <div class="services-boxes">
+          <div class="services-box">
+            <h3>Website Design</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
+              ullam distinctio consequuntur. Cumque culpa eaque nemo veniam
+              mollitia, cum at.
+            </p>
+            <p>Pricing: $1,000 - $3,000</p>
+          </div>
+          <div class="services-box">
+            <h3>Website Maintenance</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequuntur itaque suscipit harum cumque modi minus, veritatis
+              sequi deleniti ad ipsam.
+            </p>
+            <p>Pricing: $250 per month</p>
+          </div>
+          <div class="services-box">
+            <h3>Website Hosting</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores
+              provident illum quam aperiam, nihil labore aut ea. Molestiae,
+              libero accusantium?
+            </p>
+            <p>Pricing: $25 per month</p>
+          </div>
+        </div>
+      </div>
+      <div class="services-main-section-right">
+        <div>
+          <h3 id="get-a-quote">Get A Quote</h3>
+        </div>
+        <div>
+          <form action="#" method="post">
+            <label for="name" class="label">Name</label><br />
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Name"
+              required
+            /><br />
+            <label for="email" class="label">Email</label><br />
+            <input
+              type="email"
+              name="email"
+              id="service-email"
+              placeholder="Email Address"
+              required
+            /><br />
+            <label for="message" class="label">Message</label><br />
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="3"
+              placeholder="Message"
+              required
+            ></textarea
+            ><br />
+            <button type="submit" id="submit-button">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-down">
+      <p>Clarusway Web Design, Copyright © 2020</p>
+      <img src="./images/clarusway_logo.png" alt="Clarusway Logo" />
+    </div>
+  </body>
+</html>
